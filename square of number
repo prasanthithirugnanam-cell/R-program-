@@ -1,0 +1,7 @@
+square <- function(n) {
+  for(i in 1:n)
+    print(i^2)
+}
+
+n <- as.integer(readline("Enter n: "))
+square(n)
