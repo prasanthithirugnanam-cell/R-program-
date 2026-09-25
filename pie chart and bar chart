@@ -1,0 +1,5 @@
+values <- c(20, 30, 25, 25)
+names(values) <- c("A", "B", "C", "D")
+
+pie(values, main="Pie Chart")
+barplot(values, main="Bar Chart", xlab="Categories", ylab="Values")
