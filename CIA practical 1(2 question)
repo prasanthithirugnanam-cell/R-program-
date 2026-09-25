@@ -1,0 +1,7 @@
+square <- function(numbers) {
+  print(numbers^2)
+}
+
+numbers <- c(2, 4, 6, 8, 10)
+
+square(numbers)
