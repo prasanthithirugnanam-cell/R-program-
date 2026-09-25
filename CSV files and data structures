@@ -1,0 +1,10 @@
+data <- data.frame(
+  Name = c("A", "B", "C", "D", "E"),
+  Marks = c(80, 90, 75, 85, 95)
+)
+
+print(data)
+print(summary(data))
+print(mean(data$Marks))
+print(max(data$Marks))
+print(min(data$Marks))
