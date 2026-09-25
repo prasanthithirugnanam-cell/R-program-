@@ -1,0 +1,7 @@
+df1 <- data.frame(Name=c("A","B"), Age=c(20,21))
+df2 <- data.frame(Marks=c(80,90), Grade=c("A","A"))
+
+print(cbind(df1, df2))
+
+df3 <- data.frame(Name="C", Age=22, Marks=85, Grade="A")
+print(rbind(cbind(df1, df2), df3))
