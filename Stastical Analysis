@@ -1,0 +1,9 @@
+marks <- c(70, 80, 65, 90, 85, 75)
+
+print(marks)
+print(mean(marks))
+print(median(marks))
+print(sd(marks))
+print(min(marks))
+print(max(marks))
+summary(marks)
