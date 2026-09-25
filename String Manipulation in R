@@ -1,0 +1,7 @@
+s <- "Hello R Programming"
+
+print(nchar(s))
+print(toupper(s))
+print(tolower(s))
+print(substr(s, 1, 5))
+print(paste("Welcome", "to", "R"))
